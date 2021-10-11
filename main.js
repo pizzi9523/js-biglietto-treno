@@ -16,3 +16,5 @@ else if (passengerAge >= 65) {
 }
 
 console.log(`Il prezzo del biglietto è ${ticketPrice.toFixed(2)} €`);
+
+document.getElementById("prezzo").innerHTML = `Il prezzo del biglietto è ${ticketPrice.toFixed(2)} €`
